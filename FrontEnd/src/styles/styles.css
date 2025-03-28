@@ -1,0 +1,80 @@
+/* Navbar.css */
+
+/* Contenedor del navbar */
+.navbar-container {
+    background: linear-gradient(135deg, #ec4899, #8b5cf6);
+    padding: 15px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+  }
+  
+  /* Título del navbar */
+  .navbar-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Ícono del navbar */
+  .navbar-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Enlaces del navbar */
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  /* Elementos del navbar */
+  .navbar-item {
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Enlaces del navbar */
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item a:hover {
+    color: #d1d5db;
+  }
+  
+  /* Botones del navbar */
+  .navbar-item .button-link {
+    background: #8b5cf6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.3s, box-shadow 0.3s;
+  }
+  
+  .navbar-item .button-link:hover {
+    background: #6d28d9;
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.7), 0 0 20px rgba(139, 92, 246, 0.5);
+  }
+  
+  /* Botón de registro */
+  .navbar-item .register-button {
+    background: #f9a8d4;
+    color: #1a1a1a;
+  }
+  
+  .navbar-item .register-button:hover {
+    background: #f472b6;
+    box-shadow: 0 0 10px rgba(249, 168, 212, 0.7), 0 0 20px rgba(249, 168, 212, 0.5);
+  }
+  

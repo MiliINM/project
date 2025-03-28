@@ -1,0 +1,159 @@
+/* Navbar.css */
+
+/* Contenedor del navbar */
+.navbar-container {
+    background: #f9a8d4;
+    padding: 15px 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.5);
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+  }
+  
+  /* Título del navbar */
+  .navbar-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Fuente Bebas Neue */
+  .bebas-neue-regular {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/* Ícono del navbar */
+.navbar-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    display: inline-block; /* Add this line */
+    vertical-align: middle; /* Add this line */
+  }
+  /* Enlaces del navbar */
+  .navbar-links {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* Permite que los enlaces se envuelvan en pantallas pequeñas */
+  }
+  
+  /* Elementos del navbar */
+  .navbar-item {
+    font-family: 'Share Tech Mono', monospace;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  /* Enlaces del navbar */
+  .navbar-item a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-item a:hover {
+    color: #d1d5db;
+  }
+  
+  /* Botones del navbar */
+  .navbar-item .button-link {
+    background: #8b5cf6;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background 0.3s, box-shadow 0.3s;
+    display: inline-block; /* Asegura que los botones mantengan su forma */
+  }
+  
+  .navbar-item .button-link:hover {
+    background: #6d28d9;
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.7), 0 0 20px rgba(139, 92, 246, 0.5);
+  }
+  
+  /* Botón de login */
+  .navbar-item .login-button {
+    background: #f9a8d4;
+    color: #1a1a1a;
+  }
+  
+  .navbar-item .login-button:hover {
+    background: #f472b6;
+    box-shadow: 0 0 10px rgba(249, 168, 212, 0.7), 0 0 20px rgba(249, 168, 212, 0.5);
+  }
+  
+  /* Botón de registro */
+  .navbar-item .register-button {
+    background: #f9a8d4;
+    color: #1a1a1a;
+  }
+  
+  .navbar-item .register-button:hover {
+    background: #f472b6;
+    box-shadow: 0 0 10px rgba(249, 168, 212, 0.7), 0 0 20px rgba(249, 168, 212, 0.5);
+  }
+  
+  /* Media queries para responsividad */
+  @media (max-width: 768px) {
+    .navbar-container {
+      padding: 15px 20px;
+      flex-direction: column;
+      gap: 15px;
+    }
+    
+    .navbar-links {
+      width: 100%;
+      justify-content: center;
+    }
+    
+    .navbar-title {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar-container {
+      padding: 12px 15px;
+    }
+    
+    .navbar-links {
+      gap: 10px;
+    }
+    
+    .navbar-item .button-link {
+      padding: 8px 15px;
+      font-size: 0.9rem;
+    }
+    
+    .navbar-title {
+      font-size: 1.5rem;
+    }
+    
+    .navbar-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .navbar-container {
+      padding: 10px;
+    }
+    
+    .navbar-links {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .navbar-item {
+      margin-bottom: 8px;
+    }
+  }
+  
