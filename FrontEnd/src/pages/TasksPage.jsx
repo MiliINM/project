@@ -5,6 +5,7 @@ import { TaskCard } from "../components/tasks/TaskCard";
 import { ImFileEmpty } from "react-icons/im";
 import { TaskManager } from "../components/TaskManager";
 
+
 export function TasksPage() {
   const { tasks, getTasks } = useTasks();
 
